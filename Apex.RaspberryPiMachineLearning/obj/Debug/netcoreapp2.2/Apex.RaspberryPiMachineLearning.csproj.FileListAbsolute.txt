@@ -1,0 +1,14 @@
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\bin\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.deps.json
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\bin\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.runtimeconfig.json
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\bin\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.runtimeconfig.dev.json
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\bin\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.dll
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\obj\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.csprojAssemblyReference.cache
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\obj\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.csproj.CoreCompileInputs.cache
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\obj\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.RazorAssemblyInfo.cache
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\obj\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.RazorAssemblyInfo.cs
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\obj\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.AssemblyInfoInputs.cache
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\obj\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.AssemblyInfo.cs
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\obj\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.RazorTargetAssemblyInfo.cache
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\bin\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.pdb
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\obj\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.dll
+C:\Users\dcost\source\repos\Apex.RaspberryPiMachineLearning\Apex.RaspberryPiMachineLearning\obj\Debug\netcoreapp2.2\Apex.RaspberryPiMachineLearning.pdb

@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dcost\\source\\repos\\Apex.RaspberryPiMachineLearning\\Apex.RaspberryPiMachineLearning\\Apex.RaspberryPiMachineLearning.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dcost\\source\\repos\\Apex.RaspberryPiMachineLearning\\Apex.RaspberryPiMachineLearning\\Apex.RaspberryPiMachineLearning.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcost\\source\\repos\\Apex.RaspberryPiMachineLearning\\Apex.RaspberryPiMachineLearning\\Apex.RaspberryPiMachineLearning.csproj",
+        "projectName": "Apex.RaspberryPiMachineLearning",
+        "projectPath": "C:\\Users\\dcost\\source\\repos\\Apex.RaspberryPiMachineLearning\\Apex.RaspberryPiMachineLearning\\Apex.RaspberryPiMachineLearning.csproj",
+        "packagesPath": "C:\\Users\\dcost\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcost\\source\\repos\\Apex.RaspberryPiMachineLearning\\Apex.RaspberryPiMachineLearning\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.CognitiveServices.Speech": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.ML.AutoML": {
+              "target": "Package",
+              "version": "[0.3.0, )"
+            },
+            "Microsoft.ML.Experimental": {
+              "target": "Package",
+              "version": "[0.13.0, )"
+            },
+            "Microsoft.ML.LightGBM": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6-27804-01, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": [
+            "Microsoft.AspNetCore.App",
+            "Microsoft.NETCore.App"
+          ]
+        }
+      }
+    }
+  }
+}

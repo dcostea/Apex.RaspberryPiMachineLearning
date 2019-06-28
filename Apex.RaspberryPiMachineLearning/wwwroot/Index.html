@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.NET Bot Training</title>
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/site.css" />
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/signalr/signalr.min.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script>
+</head> 
+<body>
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-4 text-center">
+                <img src="images/standby.png" class="img-rounded" id="image_source" alt="stand by" />
+            </div>
+            <div class="col-4 text-center">
+                <br />
+                <input type="button" id="train" class="btn btn-primary btn-lg" value="Train the model!" />
+                <input type="button" id="auto_train" class="btn btn-primary btn-lg" value="Auto Train the model!" />
+                <h2 id="source"></h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
