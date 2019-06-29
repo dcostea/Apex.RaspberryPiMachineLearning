@@ -9,11 +9,13 @@ namespace RaspberryPiMachineLearning.Controllers
 {
     public class HomeController : ControllerBase
     {
-        private readonly IOptions<RaspberryPiSettings> settings; 
+        private readonly RaspberryPiSettings raspberryPiSettings;
+        private readonly CognitiveServicesSettings cognitiveServicesSettings;
 
-        public HomeController(IOptions<RaspberryPiSettings> raspberryPiSettings)
+        public HomeController(IOptions<RaspberryPiSettings> raspberryPiSettings, IOptions<CognitiveServicesSettings> cognitiveServicesSettings)
         {
-            settings = raspberryPiSettings;
+            this.raspberryPiSettings = raspberryPiSettings.Value;
+            this.cognitiveServicesSettings = cognitiveServicesSettings.Value;
         }
 
         [HttpGet("api/sensor/train")]
@@ -43,7 +45,8 @@ namespace RaspberryPiMachineLearning.Controllers
         [HttpGet("api/sensor/talk/{text}")]
         public IActionResult TalkAsync(string text)
         {
-            Task.Run(() => SpeechHelper.Speak(text));
+            var speech = new SpeechHelpers(cognitiveServicesSettings);
+            Task.Run(() => speech.Speak(text));
 
             return Ok();
         }
@@ -51,7 +54,8 @@ namespace RaspberryPiMachineLearning.Controllers
         [HttpGet("api/sensor/listen")]
         public async Task<IActionResult> Listen()
         {
-            await SpeechHelper.Listen();
+            var speech = new SpeechHelpers(cognitiveServicesSettings);
+            await speech.Listen();
 
             return Ok();
         }

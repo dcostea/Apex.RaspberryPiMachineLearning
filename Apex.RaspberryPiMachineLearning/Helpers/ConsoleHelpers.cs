@@ -8,7 +8,7 @@ using static System.Console;
 
 namespace Apex.RaspberryPiMachineLearning.Helpers
 {
-    public static class ConsoleHelper
+    public static class ConsoleHelpers
     {
         private const int Width = 114;
         private const ConsoleColor color = ConsoleColor.Yellow;
@@ -30,23 +30,23 @@ namespace Apex.RaspberryPiMachineLearning.Helpers
 
             var microAccuracyValues = metricsInMultipleFolds.Select(m => m.MicroAccuracy);
             var microAccuracyAverage = microAccuracyValues.Average();
-            var microAccuraciesStdDeviation = ModelHelper.CalculateStandardDeviation(microAccuracyValues);
-            var microAccuraciesConfidenceInterval95 = ModelHelper.CalculateConfidenceInterval95(microAccuracyValues);
+            var microAccuraciesStdDeviation = ModelHelpers.CalculateStandardDeviation(microAccuracyValues);
+            var microAccuraciesConfidenceInterval95 = ModelHelpers.CalculateConfidenceInterval95(microAccuracyValues);
 
             var macroAccuracyValues = metricsInMultipleFolds.Select(m => m.MacroAccuracy);
             var macroAccuracyAverage = macroAccuracyValues.Average();
-            var macroAccuraciesStdDeviation = ModelHelper.CalculateStandardDeviation(macroAccuracyValues);
-            var macroAccuraciesConfidenceInterval95 = ModelHelper.CalculateConfidenceInterval95(macroAccuracyValues);
+            var macroAccuraciesStdDeviation = ModelHelpers.CalculateStandardDeviation(macroAccuracyValues);
+            var macroAccuraciesConfidenceInterval95 = ModelHelpers.CalculateConfidenceInterval95(macroAccuracyValues);
 
             var logLossValues = metricsInMultipleFolds.Select(m => m.LogLoss);
             var logLossAverage = logLossValues.Average();
-            var logLossStdDeviation = ModelHelper.CalculateStandardDeviation(logLossValues);
-            var logLossConfidenceInterval95 = ModelHelper.CalculateConfidenceInterval95(logLossValues);
+            var logLossStdDeviation = ModelHelpers.CalculateStandardDeviation(logLossValues);
+            var logLossConfidenceInterval95 = ModelHelpers.CalculateConfidenceInterval95(logLossValues);
 
             var logLossReductionValues = metricsInMultipleFolds.Select(m => m.LogLossReduction);
             var logLossReductionAverage = logLossReductionValues.Average();
-            var logLossReductionStdDeviation = ModelHelper.CalculateStandardDeviation(logLossReductionValues);
-            var logLossReductionConfidenceInterval95 = ModelHelper.CalculateConfidenceInterval95(logLossReductionValues);
+            var logLossReductionStdDeviation = ModelHelpers.CalculateStandardDeviation(logLossReductionValues);
+            var logLossReductionConfidenceInterval95 = ModelHelpers.CalculateConfidenceInterval95(logLossReductionValues);
 
             WriteLineColor($"**********************************************************************************", color);
             WriteLineColor($"  Metrics for multi-class Classification model using cross validation", color);

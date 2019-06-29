@@ -12,16 +12,16 @@ namespace Apex.RaspberryPiMachineLearning.Helpers
         {
             if (_iterationIndex++ == 0)
             {
-                ConsoleHelper.PrintMulticlassClassificationMetricsHeader();
+                ConsoleHelpers.PrintMulticlassClassificationMetricsHeader();
             }
 
             if (iterationResult.Exception != null)
             {
-                ConsoleHelper.PrintIterationException(iterationResult.Exception);
+                ConsoleHelpers.PrintIterationException(iterationResult.Exception);
             }
             else
             {
-                ConsoleHelper.PrintIterationMetrics(_iterationIndex, iterationResult.TrainerName,
+                ConsoleHelpers.PrintIterationMetrics(_iterationIndex, iterationResult.TrainerName,
                     iterationResult.ValidationMetrics, iterationResult.RuntimeInSeconds);
             }
         }

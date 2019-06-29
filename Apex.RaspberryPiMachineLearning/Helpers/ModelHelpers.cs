@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Apex.RaspberryPiMachineLearning.Helpers
 {
-    public static class ModelHelper
+    public static class ModelHelpers
     {
         public static double CalculateStandardDeviation(IEnumerable<double> values)
         {

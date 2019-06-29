@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Apex.RaspberryPiMachineLearning
+﻿namespace Apex.RaspberryPiMachineLearning
 {
     public class RaspberryPiSettings
     {

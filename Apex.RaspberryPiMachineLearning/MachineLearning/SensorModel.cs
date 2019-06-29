@@ -4,7 +4,7 @@ using Microsoft.ML;
 using Microsoft.ML.Data;
 using Apex.RaspberryPiMachineLearning.Helpers;
 using Microsoft.ML.AutoML;
-using static Apex.RaspberryPiMachineLearning.Helpers.ConsoleHelper;
+using static Apex.RaspberryPiMachineLearning.Helpers.ConsoleHelpers;
 
 namespace RaspberryPiMachineLearning.MachineLearning
 {

@@ -8,16 +8,18 @@ namespace Apex.RaspberryPiMachineLearning
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
+        public static IConfiguration ConfigurationRoot { get; }
 
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<RaspberryPiSettings>(Configuration.GetSection("RaspberryPiSettings"));
+            services.Configure<CognitiveServicesSettings>(Configuration.GetSection("CognitiveServicesSettings"));
 
             services.AddControllers();
         }
